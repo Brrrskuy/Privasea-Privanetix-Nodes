@@ -1,5 +1,5 @@
 # <h2 align=center>Privasea Privanetix Node</h2>
-
+- Buy VPS di : t.me/skuycloud
 ## Minimum System Requirements
 
 | **Component**             | **Requirement**                     |
@@ -12,11 +12,11 @@
 
 
 ## Guide Install
-1. First install `Docker` in your system 
+1. First install `Docker` 
 ```
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 ```
-2. First pull the docker image using the following command
+2. Docker pull this command
 ```
 docker pull privasea/acceleration-node-beta:latest
 ```
@@ -24,8 +24,7 @@ docker pull privasea/acceleration-node-beta:latest
 ```
 mkdir -p ~/privasea/config && cd ~/privasea
 ```
-4. Run the below command to get a new wallet keystore
-- Here you need input a password after running the below command, make sure to remember it for future use and also note down the `node address` as well
+4. Run command to get a new wallet keystore
 ```
 docker run --rm -it -v "$HOME/privasea/config:/app/config" privasea/acceleration-node-beta:latest ./node-calc new_keystore
 ```
@@ -41,3 +40,5 @@ KEYSTORE_PASSWORD=ENTER_YOUR_KEYSTORE_PASSWORD && docker run -d --name privaneti
 ```
 
 8. Now follow the guide from **Step 3 (Manage my Privanetix node)** from [this docs](https://www.privasea.ai/privanetix-node)
+
+- Trakteer buat buy Kopi : https://trakteer.id/brrrskuy/tip
