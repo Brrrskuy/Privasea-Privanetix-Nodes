@@ -11,7 +11,7 @@
 | **Processor**             | 6 cores                             |
 
 
-## Installation
+## Guide Install
 1. First install `Docker` in your system 
 ```
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
@@ -29,7 +29,7 @@ mkdir -p ~/privasea/config && cd ~/privasea
 ```
 docker run --rm -it -v "$HOME/privasea/config:/app/config" privasea/acceleration-node-beta:latest ./node-calc new_keystore
 ```
-5. Move the keystore file to a new file
+5. Move the keystore file to a new file (UTC--2025 ganti yg bawah ini jadi keystoremu)
 ```
 mv $HOME/privasea/config/UTC--* $HOME/privasea/config/wallet_keystore
 ```
