@@ -32,11 +32,11 @@ mv $HOME/privasea/config/UTC--* $HOME/privasea/config/wallet_keystore
 ```
 6. Pergi ke [Privasea Privanetix Dashboard](https://deepsea-beta.privasea.ai/privanetixNode)
 - Connect wallet for recieve reward and then give the node any name (I will use 5% commission)
-7. Jalankan Privasea Privanetix Node, jangan lupa **GANTI_KEYSTORMU_DEPANNYA_UTC** sama **Keystore Password**, ganti Keystore sama ganti passwordmu yg dibuat tdi
+7. Jalankan Privasea Privanetix Node, jangan lupa **GANTI_KEYSTORMU_DEPANNYA_UTC** sama **GANTI_PASSWORDMU**, ganti Keystore sama ganti passwordmu yg dibuat tadi
 ```
 KEYSTORE_PASSWORD=GANTI_KEYSTORMU_DEPANNYA_UTC && docker run -d --name privanetix-node -v "$HOME/privasea/config:/app/config" -e KEYSTORE_PASSWORD=GANTI_PASSWORDMU privasea/acceleration-node-beta:latest
 ```
 
-8. Sekarang tinggal ikutin **Step Terakhir (Manage my Privanetix node)** from [Click disini mas](https://www.privasea.ai/privanetix-node)
+8. Sekarang tinggal ikutin **Step Terakhir (Manage my Privanetix node)** ke [Click disini mas](https://www.privasea.ai/privanetix-node)
 ----------------------
 - Trakteer buat buy Kopi : https://trakteer.id/brrrskuy/tip
