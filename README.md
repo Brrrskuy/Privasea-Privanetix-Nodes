@@ -39,6 +39,6 @@ mv $HOME/privasea/config/UTC--* $HOME/privasea/config/wallet_keystore
 KEYSTORE_PASSWORD=ENTER_YOUR_KEYSTORE_PASSWORD && docker run -d --name privanetix-node -v "$HOME/privasea/config:/app/config" -e KEYSTORE_PASSWORD=$KEYSTORE_PASSWORD privasea/acceleration-node-beta:latest
 ```
 
-8. Now follow the guide from **Step 3 (Manage my Privanetix node)** from [this docs](https://www.privasea.ai/privanetix-node)
-
+8. Sekarang tinggal ikuti **Step Terakhir (Manage my Privanetix node)** from [Click disini mas](https://www.privasea.ai/privanetix-node)
+----------------------
 - Trakteer buat buy Kopi : https://trakteer.id/brrrskuy/tip
