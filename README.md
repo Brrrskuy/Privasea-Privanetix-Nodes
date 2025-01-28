@@ -1,6 +1,6 @@
 # <h2 align=center>Privasea Privanetix Node</h2>
 - Buy VPS di : [t.me/skuycloud](t.me/skuycloud)
-## Minimum System Requirements
+## Minimum Requirements
 
 | **Requirement**         |
 |-------------------------|
@@ -26,13 +26,13 @@ mkdir -p ~/privasea/config && cd ~/privasea
 ```
 docker run --rm -it -v "$HOME/privasea/config:/app/config" privasea/acceleration-node-beta:latest ./node-calc new_keystore
 ```
-5. Pindahkan keystore ke file baru (UTC--2025 ganti yg bawah ini jadi keystoremu)
+5. Pindahkan keystore ke file baru (Ganti *** UTC--2025.... ganti yg bawah ini jadi keystoremu)
 ```
-mv $HOME/privasea/config/UTC--* $HOME/privasea/config/wallet_keystore
+mv $HOME/privasea/config/UTC--*** $HOME/privasea/config/wallet_keystore
 ```
 6. Pergi ke [Privasea Privanetix Dashboard](https://deepsea-beta.privasea.ai/privanetixNode)
-- Connect wallet for recieve reward and then give the node any name (I will use 5% commission)
-7. Jalankan Privasea Privanetix Node, jangan lupa **GANTI_KEYSTORMU_DEPANNYA_UTC** sama **GANTI_PASSWORDMU**, ganti Keystore sama ganti passwordmu yg dibuat tadi
+- Connect wallet for recieve reward and then give the node any name (I will use 1% commission)
+7. Jalankan Privasea Privanetix Node, jangan lupa **GANTI_KEYSTORMU_DEPANNYA_UTC-2025** sama **GANTI_PASSWORDMU**, ganti Keystore sama ganti passwordmu yg dibuat tadi
 ```
 KEYSTORE_PASSWORD=GANTI_KEYSTORMU_DEPANNYA_UTC && docker run -d --name privanetix-node -v "$HOME/privasea/config:/app/config" -e KEYSTORE_PASSWORD=GANTI_PASSWORDMU privasea/acceleration-node-beta:latest
 ```
